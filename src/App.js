@@ -48,7 +48,7 @@ const App = () => {
       itemArray[4] === itemArray[7] &&
       itemArray[1] !== "empty"
     ) {
-      setWinMessage(`${itemArray[6]} Wins`);
+      setWinMessage(`${itemArray[1]} Wins`);
     } else if (
       itemArray[2] === itemArray[5] &&
       itemArray[5] === itemArray[8] &&
