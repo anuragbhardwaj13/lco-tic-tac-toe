@@ -121,7 +121,10 @@ const App = () => {
           )}
           <div className="grid">
             {itemArray.map((item, index) => (
-              <Card onClick={() => changeItem(index)}>
+              <Card
+                onClick={() => changeItem(index)}
+                className="border-secondary"
+              >
                 <CardBody className="box">
                   <Icon name={item} />
                 </CardBody>
