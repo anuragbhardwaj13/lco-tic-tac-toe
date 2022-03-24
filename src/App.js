@@ -100,6 +100,7 @@ const App = () => {
   };
   return (
     <Container className="p-5">
+      <h1 className="text-center text-light text-uppercase">Tic-Tac-Toe</h1>
       <ToastContainer position="bottom-center" />
       <Row>
         <Col md={6} className="offset-md-3">
@@ -119,7 +120,7 @@ const App = () => {
           )}
           <div className="grid">
             {itemArray.map((item, index) => (
-              <Card onClick={() => changeItem(index)} color="warning">
+              <Card onClick={() => changeItem(index)}>
                 <CardBody className="box">
                   <Icon name={item} />
                 </CardBody>

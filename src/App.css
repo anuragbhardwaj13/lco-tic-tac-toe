@@ -1,5 +1,5 @@
 body {
-  background-color: #000000;
+  background-color: #303030;
 }
 
 .grid {
@@ -14,9 +14,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: yellowgreen;
 }
 
 .icon {
   font-size: 35px;
-  color: #000;
+  color: #fff;
 }
+
