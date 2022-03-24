@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Icon from "./components/Icon";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { FaGithub } from "react-icons/fa";
 
 import { Card, CardBody, Container, Button, Col, Row } from "reactstrap";
 
@@ -129,6 +130,17 @@ const App = () => {
           </div>
         </Col>
       </Row>
+      <Container className="p-5">
+        <h4 className="text-center text-light">
+          <a
+            href="https://github.com/anuragbhardwaj13/lco-tic-tac-toe"
+            target={"_blank"}
+            rel={"noreferrer"}
+          >
+            <FaGithub className="icon"></FaGithub>Github Repo
+          </a>
+        </h4>
+      </Container>
     </Container>
   );
 };

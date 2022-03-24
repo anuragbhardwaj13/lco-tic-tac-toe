@@ -21,4 +21,9 @@ body {
   font-size: 35px;
   color: #fff;
 }
-
+a {
+  color: white;
+}
+a:hover {
+  color: rgb(255, 208, 79);
+}
